@@ -8,7 +8,7 @@ end
 key = readfile("PillowKey.txt")
 local isSupport = nil
 local GameList = {
-	[7094518649] = "" ---Restaurant Tycoon 3
+	[7094518649] = "0b6b763631ff4ac3f6e91e3187766673" ---Restaurant Tycoon 3
 }
 for id, scriptid in pairs(GameList) do
 	if id == game.GameId then
