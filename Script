@@ -25,5 +25,5 @@ else
     if not getgenv().HubEnabled then
 	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sleep-Pillow/Hub/refs/heads/main/library"))()
     end
-    Notification(1, "Need Key!", "Please make sure you are already put the key try again", 10)
+    Notification(1, status.code, "Please contact the Admin.", 10)
 end
